@@ -30,7 +30,7 @@ const userSchema = new Schema({
         trim: true,
     },
     coverImage: {
-        type: String
+        type: String  || ""
     },
     watchHistory: [
         {
